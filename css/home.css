@@ -1,0 +1,147 @@
+header {
+	height:auto;
+}
+
+header {
+	display: block;
+	margin: 0;
+
+	position:relative;
+	background: url("../img/makambo-header.jpg") center 0 no-repeat;
+	background-size: 1150px;
+	min-height: 470px;
+	background-color: black;
+}
+.navbar-left > img {
+	
+	display:block;
+	height: auto;
+	margin-top: 25px;
+
+
+}
+.navbar-left > img:hover {
+
+}
+
+
+.navbar-left {
+	float:left;
+	margin-top: 20px;
+}
+
+.navbar-right{
+ 	float:right;
+ }
+
+
+ .social-links li{
+ 	float:left;
+ 	margin-top: 30px;
+
+ }
+
+.social-icon {
+	display: inline-block;
+	width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #ff4c00;
+    color: #fff;
+    margin-top: 25px;
+    margin-left: 10px;
+    opacity: 0.8;
+}
+.social-icon i {
+    padding: 9px;
+}
+#icona{
+	margin: 0;
+	padding: 8px 5px;
+}
+
+#icona2 {
+	background-color: black;
+
+}
+.social-icon:hover,
+.social-icon:focus,
+.social-icon:active {
+    background-color: #5bd0ec;
+    color: #fff;
+    opacity:1;
+}
+
+
+#string {
+	display:block;
+	line-height: auto;
+	min-height: 50px;
+	padding: 20px;
+	background-color: #fff;
+      
+}
+
+#string h4 {
+	color:#ff4c00;
+}
+
+#string a{
+	text-decoration: underline;
+	font-size: 13px;
+}
+
+/* #menu {
+	display:block;
+	background-color: #EDEDED;
+    min-height: 75px;
+}
+
+#farba {
+		background-color: #cecece;
+}
+
+#menu li a h3,
+#menu li a li.separator {
+
+	float:left;
+
+}
+#menu li.separator {
+    margin: 0 10px;
+    width: 10px;
+} */
+
+/* iframe {
+	margin-top: 10px;
+} */
+
+#media {
+	display: block;
+	background-color: black;
+	padding-top: 20px;
+}
+#media object:last-child {
+	float:right;
+
+}
+
+#string:hover{
+
+background-color: #cecece;
+
+  
+	-o-transition: background-color .5s ease-in;
+
+-moz-transition: background-color .5s ease-in;
+  
+-webkit-transition: background-color .5s ease-in;    chrome etc
+-ms: background-color .5s ease-in;
+
+}
+
+.footer {
+	background-color: black;
+	min-height: 30px;
+	padding:60px;
+}
